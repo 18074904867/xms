@@ -22,7 +22,7 @@ void main()
             maxcount=ncount;
             index=i;        //记录当前重数在数组中的位置
         }
-        ncount=0;      //每次注意初始化，不然就会gg哦
+        ncount=0;      //初始化
     }
     printf("众数是：%d\n重数是：%d\n",a[index],maxcount);
 }
